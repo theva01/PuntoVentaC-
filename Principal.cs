@@ -37,5 +37,30 @@ namespace PuntoVentaCsharp
             inventario.ShowDialog();
             this.Show();
         }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBuscarCli_MouseHover(object sender, EventArgs e)
+        {
+            if (txtBuscarCli.Text == "Buscar Cliente por Codigo") {
+                txtBuscarCli.Text = "";
+                txtBuscarCli.ReadOnly = false;
+            }
+            
+            
+        }
+
+        private void txtBuscarCli_MouseLeave(object sender, EventArgs e)
+        {
+            if (txtBuscarCli.Text == "") {
+                txtBuscarCli.Text = "Buscar Cliente por Codigo";
+                txtBuscarCli.ReadOnly = true;
+            }
+            
+            
+        }
     }
 }
