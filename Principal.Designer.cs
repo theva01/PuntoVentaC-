@@ -33,6 +33,7 @@
             this.menuArchivo = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirFacturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuUsuarios = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuInventario = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +51,8 @@
             // 
             this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuArchivo,
-            this.menuUsuarios});
+            this.menuUsuarios,
+            this.menuInventario});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
             this.menuPrincipal.Size = new System.Drawing.Size(800, 24);
@@ -68,7 +70,7 @@
             // abrirFacturaToolStripMenuItem
             // 
             this.abrirFacturaToolStripMenuItem.Name = "abrirFacturaToolStripMenuItem";
-            this.abrirFacturaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.abrirFacturaToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.abrirFacturaToolStripMenuItem.Text = "Abrir factura";
             // 
             // menuUsuarios
@@ -77,6 +79,13 @@
             this.menuUsuarios.Size = new System.Drawing.Size(64, 20);
             this.menuUsuarios.Text = "Usuarios";
             this.menuUsuarios.Click += new System.EventHandler(this.menuUsuarios_Click);
+            // 
+            // menuInventario
+            // 
+            this.menuInventario.Name = "menuInventario";
+            this.menuInventario.Size = new System.Drawing.Size(72, 20);
+            this.menuInventario.Text = "Inventario";
+            this.menuInventario.Click += new System.EventHandler(this.menuInventario_Click);
             // 
             // Principal
             // 
@@ -102,5 +111,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuArchivo;
         private System.Windows.Forms.ToolStripMenuItem abrirFacturaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menuUsuarios;
+        private System.Windows.Forms.ToolStripMenuItem menuInventario;
     }
 }

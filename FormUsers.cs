@@ -20,7 +20,7 @@ namespace PuntoVentaCsharp
             CargaDtg();
         }
 
-        private void CargaDtg() { dataGridView1.DataSource = mCnx.ConsultaUsuarioDt(); }
+        private void CargaDtg() { dataGridView1.DataSource = mCnx.ConsultaUsuarioDt("u"); }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
@@ -36,7 +36,7 @@ namespace PuntoVentaCsharp
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            mCnx.Eliminar(txtId.Text);
+            mCnx.Eliminar(txtId.Text, "u");
             CargaDtg();
         }
     }

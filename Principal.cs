@@ -29,5 +29,13 @@ namespace PuntoVentaCsharp
             formUsers.ShowDialog();
             this.Show();
         }
+
+        private void menuInventario_Click(object sender, EventArgs e)
+        {
+            Inventario inventario = new Inventario();
+            this.Hide();
+            inventario.ShowDialog();
+            this.Show();
+        }
     }
 }
