@@ -3,8 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\eva_01\\source\\repos\\PuntoVentaCsharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99F3903F-F87A-4399-9777-E928A4AA7501}|PuntoVentaCsharp.csproj|c:\\users\\eva_01\\source\\repos\\puntoventacsharp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{99F3903F-F87A-4399-9777-E928A4AA7501}|PuntoVentaCsharp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2C008E57-F86D-476D-9316-0E66EA5056EC}|..\\DAL\\DAL.csproj|c:\\users\\eva_01\\source\\repos\\dal\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C637AC16-4213-4770-8DE4-4D822F610E85}|..\\BLL\\BLL.csproj|c:\\users\\eva_01\\source\\repos\\bll\\middleconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3903F-F87A-4399-9777-E928A4AA7501}|PuntoVentaCsharp.csproj|c:\\users\\eva_01\\source\\repos\\puntoventacsharp\\formusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3903F-F87A-4399-9777-E928A4AA7501}|PuntoVentaCsharp.csproj|solutionrelative:formusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3903F-F87A-4399-9777-E928A4AA7501}|PuntoVentaCsharp.csproj|c:\\users\\eva_01\\source\\repos\\puntoventacsharp\\formusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99F3903F-F87A-4399-9777-E928A4AA7501}|PuntoVentaCsharp.csproj|solutionrelative:formusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,14 +32,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\PuntoVentaCsharp\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\eva_01\\source\\repos\\PuntoVentaCsharp\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "FormUsers.cs",
+              "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\PuntoVentaCsharp\\FormUsers.cs",
+              "RelativeDocumentMoniker": "FormUsers.cs",
+              "ToolTip": "C:\\Users\\eva_01\\source\\repos\\PuntoVentaCsharp\\FormUsers.cs",
+              "RelativeToolTip": "FormUsers.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwCYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T06:37:40.189Z",
+              "WhenOpened": "2024-04-24T01:13:00.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MiddleConnector.cs",
+              "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\BLL\\MiddleConnector.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\MiddleConnector.cs",
+              "ToolTip": "C:\\Users\\eva_01\\source\\repos\\BLL\\MiddleConnector.cs",
+              "RelativeToolTip": "..\\BLL\\MiddleConnector.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:56:09.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConexionSQL.cs",
+              "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\DAL\\ConexionSQL.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\ConexionSQL.cs",
+              "ToolTip": "C:\\Users\\eva_01\\source\\repos\\DAL\\ConexionSQL.cs",
+              "RelativeToolTip": "..\\DAL\\ConexionSQL.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAswGoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:38:47.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormUsers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\eva_01\\source\\repos\\PuntoVentaCsharp\\FormUsers.cs",
+              "RelativeDocumentMoniker": "FormUsers.cs",
+              "ToolTip": "C:\\Users\\eva_01\\source\\repos\\PuntoVentaCsharp\\FormUsers.cs [Design]",
+              "RelativeToolTip": "FormUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T01:12:57.786Z",
               "EditorCaption": " [Design]"
             }
           ]
