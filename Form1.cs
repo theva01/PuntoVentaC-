@@ -27,13 +27,14 @@ namespace PuntoVentaCsharp
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            //if (mCnx.cnxSQL(txtUsuario.Text, txtPword.Text) == 1)
-            //{
-            //    msm("Encontrado el usuario");
-            this.Hide();
+            if (mCnx.cnxSQL(txtUsuario.Text, txtPword.Text) == 1)
+            {
+                msm("Encontrado el usuario");
+                this.Hide();
             Principal p1 = new Principal();
             p1.ShowDialog();
-            //}else { msm("No existe el usuario"); }
+            }
+            else { msm("No existe el usuario"); }
         }
     }
 }

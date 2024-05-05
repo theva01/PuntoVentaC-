@@ -26,7 +26,7 @@ namespace PuntoVentaCsharp
         {
             InitializeComponent();
             CargaTabla();
-            //ajustarPorcentaje();
+            
 
         }
 
